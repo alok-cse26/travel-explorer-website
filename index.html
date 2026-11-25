@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Travel Explorer — Collect Moments. Explore the World. Discover handpicked destinations, curated travel packages, and estimate your trip budget." />
+  <title>Travel Explorer | Collect Moments. Explore the World.</title>
+
+  <!-- Google Fonts (with graceful local system fallbacks for offline use) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =====================================================================
+       NAVIGATION BAR
+       ===================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Travel Explorer Home">
+        <span class="logo-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+          </svg>
+        </span>
+        <span class="logo-text">Travel <span>Explorer</span></span>
+      </a>
+
+      <!-- Primary Navigation Links -->
+      <nav class="main-nav" id="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#destinations" class="nav-link">Destinations</a></li>
+          <li><a href="#packages" class="nav-link">Packages</a></li>
+          <li><a href="#calculator" class="nav-link">Budget Calculator</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-cta">
+          <a href="#calculator" class="btn btn-primary btn-sm">Plan Your Trip</a>
+        </div>
+      </nav>
+
+      <!-- Desktop CTA & Mobile Hamburger Toggle -->
+      <div class="nav-actions">
+        <a href="#calculator" class="btn btn-primary btn-sm nav-desktop-cta">Plan Your Trip</a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       HERO SECTION
+       ===================================================================== -->
+  <main>
+    <section class="hero-section" id="home">
+      <div class="hero-bg-wrapper">
+        <img src="assets/images/hero-bg.jpg" alt="Breathtaking emerald coastal mountains at golden sunrise" class="hero-bg-img" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal-up">
+          <span class="badge-dot"></span>
+          <span>CURATED JOURNEYS &amp; TIMELESS EXPEDITIONS</span>
+        </div>
+
+        <h1 class="hero-title reveal-up">
+          Collect Moments.<br />
+          <em>Explore the World.</em>
+        </h1>
+
+        <p class="hero-subtitle reveal-up">
+          From sun-kissed beaches in Goa and mist-veiled Himalayan peaks in Manali to emerald backwaters in Kerala and iconic horizons across Bali and Dubai—craft unforgettable journeys tailored to your rhythm.
+        </p>
+
+        <div class="hero-actions reveal-up">
+          <a href="#destinations" class="btn btn-primary btn-lg">
+            <span>Explore Destinations</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#calculator" class="btn btn-outline-light btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+              <line x1="8" y1="6" x2="16" y2="6"></line>
+              <line x1="8" y1="10" x2="10" y2="10"></line>
+              <line x1="14" y1="10" x2="16" y2="10"></line>
+              <line x1="8" y1="14" x2="10" y2="14"></line>
+              <line x1="14" y1="14" x2="16" y2="14"></line>
+            </svg>
+            <span>Plan Your Trip</span>
+          </a>
+        </div>
+
+        <!-- Hero Highlights Strip -->
+        <div class="hero-stats reveal-up">
+          <div class="stat-item">
+            <span class="stat-value">50+</span>
+            <span class="stat-label">Handpicked Routes</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-value">18,400+</span>
+            <span class="stat-label">Happy Explorers</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-value">4.9 ★</span>
+            <span class="stat-label">Traveller Rating</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Transparent Pricing</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#destinations" class="hero-scroll-indicator" aria-label="Scroll to destinations">
+        <span class="scroll-text">Discover</span>
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- =====================================================================
+         DESTINATIONS SECTION
+         ===================================================================== -->
+    <section class="section destinations-section" id="destinations">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-eyebrow">ICONIC PLACES TO DISCOVER</span>
+          <h2 class="section-title">Popular Travel Destinations</h2>
+          <p class="section-description">
+            Filter by landscape and vibe to uncover your next unforgettable escape—from serene tropical coastlines to royal heritage cities.
+          </p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="filter-bar reveal-up" role="tablist" aria-label="Destination category filters">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            All <span class="filter-count">6</span>
+          </button>
+          <button class="filter-btn" data-filter="beaches" role="tab" aria-selected="false">
+            Beaches
+          </button>
+          <button class="filter-btn" data-filter="mountains" role="tab" aria-selected="false">
+            Mountains
+          </button>
+          <button class="filter-btn" data-filter="cities" role="tab" aria-selected="false">
+            Cities
+          </button>
+          <button class="filter-btn" data-filter="nature" role="tab" aria-selected="false">
+            Nature
+          </button>
+        </div>
+
+        <!-- Destinations Grid (6 Cards) -->
+        <div class="destinations-grid" id="destinations-grid">
+
+          <!-- 1. Goa -->
+          <article class="destination-card reveal-up" data-category="beaches" data-destination="Goa">
+            <div class="card-media">
+              <img src="assets/images/goa.jpg" alt="Golden beach at sunset in Goa, India" loading="lazy" />
+              <span class="card-category-badge">Beaches</span>
+              <span class="card-rating-badge" aria-label="Rated 4.9 out of 5">★ 4.9</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>India</span>
+                <span class="card-dot">•</span>
+                <span>4 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Goa</h3>
+              <p class="card-description">
+                Sun-drenched golden coastlines, swaying coconut groves, Portuguese heritage quarters, and vibrant beachside sunsets along the Arabian Sea.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹14,500 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="goa">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Manali -->
+          <article class="destination-card reveal-up" data-category="mountains nature" data-destination="Manali">
+            <div class="card-media">
+              <img src="assets/images/manali.jpg" alt="Snow-capped Himalayan peaks and pine valley in Manali, India" loading="lazy" />
+              <span class="card-category-badge">Mountains</span>
+              <span class="card-rating-badge" aria-label="Rated 4.9 out of 5">★ 4.9</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>India</span>
+                <span class="card-dot">•</span>
+                <span>5 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Manali</h3>
+              <p class="card-description">
+                Majestic snow-clad Himalayan peaks, fragrant deodar cedar forests, roaring Beas river valleys, and high-altitude alpine mountain passes.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹15,800 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="manali">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Jaipur -->
+          <article class="destination-card reveal-up" data-category="cities" data-destination="Jaipur">
+            <div class="card-media">
+              <img src="assets/images/jaipur.jpg" alt="Ornate pink sandstone palace architecture in Jaipur, India" loading="lazy" />
+              <span class="card-category-badge">Cities</span>
+              <span class="card-rating-badge" aria-label="Rated 4.8 out of 5">★ 4.8</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>India</span>
+                <span class="card-dot">•</span>
+                <span>3 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Jaipur</h3>
+              <p class="card-description">
+                Grand rose-pink sandstone palaces, hilltop Rajput fortresses, artisanal handicraft bazaars, and royal culinary traditions in the Pink City.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹12,900 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="jaipur">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Kerala -->
+          <article class="destination-card reveal-up" data-category="nature beaches" data-destination="Kerala">
+            <div class="card-media">
+              <img src="assets/images/kerala.jpg" alt="Traditional houseboat on emerald backwaters in Kerala, India" loading="lazy" />
+              <span class="card-category-badge">Nature</span>
+              <span class="card-rating-badge" aria-label="Rated 5.0 out of 5">★ 5.0</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>India</span>
+                <span class="card-dot">•</span>
+                <span>5 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Kerala</h3>
+              <p class="card-description">
+                Serene palm-fringed backwaters aboard traditional wooden houseboats, rolling Munnar tea hills, Ayurvedic retreats, and lush spice plantations.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹18,500 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="kerala">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Bali -->
+          <article class="destination-card reveal-up" data-category="beaches nature mountains" data-destination="Bali">
+            <div class="card-media">
+              <img src="assets/images/bali.jpg" alt="Lush green rice terraces and tropical palms in Bali, Indonesia" loading="lazy" />
+              <span class="card-category-badge">Beaches &amp; Nature</span>
+              <span class="card-rating-badge" aria-label="Rated 4.9 out of 5">★ 4.9</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Indonesia</span>
+                <span class="card-dot">•</span>
+                <span>6 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Bali</h3>
+              <p class="card-description">
+                Emerald Ubud rice terraces, sacred cliffside ocean temples, volcanic mountain sunrises, coral reefs, and tranquil tropical island villas.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹42,000 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="bali">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. Dubai -->
+          <article class="destination-card reveal-up" data-category="cities" data-destination="Dubai">
+            <div class="card-media">
+              <img src="assets/images/dubai.jpg" alt="Futuristic Dubai skyline and Burj Khalifa at twilight" loading="lazy" />
+              <span class="card-category-badge">Cities</span>
+              <span class="card-rating-badge" aria-label="Rated 4.9 out of 5">★ 4.9</span>
+            </div>
+            <div class="card-body">
+              <div class="card-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>United Arab Emirates</span>
+                <span class="card-dot">•</span>
+                <span>5 Days Ideal</span>
+              </div>
+              <h3 class="card-title">Dubai</h3>
+              <p class="card-description">
+                Iconic futuristic skyscrapers, golden Arabian desert safaris under starlit skies, luxury dhow marina cruises, and world-class cultural souks.
+              </p>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="price-label">Starting from</span>
+                  <span class="price-amount">₹48,500 <small>/ person</small></span>
+                </div>
+                <button class="btn btn-secondary btn-explore-dest" data-dest-id="dubai">
+                  <span>Explore</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         TRAVEL PACKAGES SECTION
+         ===================================================================== -->
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-eyebrow">HANDCRAFTED ITINERARIES</span>
+          <h2 class="section-title">Curated Travel Packages</h2>
+          <p class="section-description">
+            Thoughtfully designed all-in-one experiences combining boutique stays, local guides, seamless transfers, and unforgettable cultural moments.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+
+          <!-- Package 1: Weekend Wanderer -->
+          <article class="package-card reveal-up">
+            <div class="package-media">
+              <img src="assets/images/pkg-weekend.jpg" alt="Cozy mountain glamping escape at twilight" loading="lazy" />
+              <span class="package-tier-badge">QUICK ESCAPE</span>
+              <div class="package-duration-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>3 Days / 2 Nights</span>
+              </div>
+            </div>
+
+            <div class="package-body">
+              <h3 class="package-title">Weekend Wanderer</h3>
+              <p class="package-subtitle">
+                Ideal for spontaneous domestic breathers to Goa, Jaipur, or Manali with zero planning stress.
+              </p>
+
+              <div class="package-price-box">
+                <div>
+                  <span class="pkg-price-label">All-Inclusive Package</span>
+                  <div class="pkg-price-value">₹11,999 <small>/ person</small></div>
+                </div>
+                <span class="pkg-save-tag">Save 15%</span>
+              </div>
+
+              <div class="package-facilities">
+                <h4 class="facilities-heading">Included Facilities</h4>
+                <ul class="facilities-list">
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>4-Star Boutique Resort or Heritage Stay</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Daily Artisanal Breakfast &amp; Welcome Drink</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Private Airport / Railway Station Transfers</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Guided Local Sightseeing &amp; Sunset Trail</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>24/7 On-Trip Travel Concierge Assistance</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="btn btn-outline-dark btn-block btn-explore-pkg" data-pkg-id="weekend">
+                <span>Explore Package</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Package 2: The Explorer (Featured) -->
+          <article class="package-card package-featured reveal-up">
+            <div class="featured-ribbon">MOST POPULAR</div>
+            <div class="package-media">
+              <img src="assets/images/pkg-explorer.jpg" alt="Scenic coastal cliff and lush forest expedition trail" loading="lazy" />
+              <span class="package-tier-badge badge-warm">SIGNATURE JOURNEY</span>
+              <div class="package-duration-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>6 Days / 5 Nights</span>
+              </div>
+            </div>
+
+            <div class="package-body">
+              <h3 class="package-title">The Explorer</h3>
+              <p class="package-subtitle">
+                Our flagship immersive journey through Kerala’s backwaters, Himachal valleys, or Rajasthan’s forts.
+              </p>
+
+              <div class="package-price-box">
+                <div>
+                  <span class="pkg-price-label">All-Inclusive Package</span>
+                  <div class="pkg-price-value">₹26,499 <small>/ person</small></div>
+                </div>
+                <span class="pkg-save-tag">Best Value</span>
+              </div>
+
+              <div class="package-facilities">
+                <h4 class="facilities-heading">Included Facilities</h4>
+                <ul class="facilities-list">
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Luxury Eco-Resorts &amp; Private Houseboat Night</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Breakfast &amp; Curated Regional Tasting Dinners</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Dedicated Chauffeur-Driven SUV Throughout</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>All Monument Tickets, Treks &amp; Cultural Shows</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Complimentary Professional Photo Session</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="btn btn-primary btn-block btn-explore-pkg" data-pkg-id="explorer">
+                <span>Explore Package</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Package 3: Beyond Borders -->
+          <article class="package-card reveal-up">
+            <div class="package-media">
+              <img src="assets/images/pkg-beyond.jpg" alt="Infinity pool overlooking tropical islands at sunset" loading="lazy" />
+              <span class="package-tier-badge">INTERNATIONAL LUXE</span>
+              <div class="package-duration-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>7 Days / 6 Nights</span>
+              </div>
+            </div>
+
+            <div class="package-body">
+              <h3 class="package-title">Beyond Borders</h3>
+              <p class="package-subtitle">
+                World-class international escapes to Bali’s tropical cliffs or Dubai’s glittering skyline in elevated comfort.
+              </p>
+
+              <div class="package-price-box">
+                <div>
+                  <span class="pkg-price-label">All-Inclusive Package</span>
+                  <div class="pkg-price-value">₹58,999 <small>/ person</small></div>
+                </div>
+                <span class="pkg-save-tag">VIP Perks</span>
+              </div>
+
+              <div class="package-facilities">
+                <h4 class="facilities-heading">Included Facilities</h4>
+                <ul class="facilities-list">
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>5-Star Oceanfront Pool Villa or Skyline Suite</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Visa Assistance &amp; Comprehensive Travel Insurance</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Gourmet Dining, Sunset Yacht / Desert Safari</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>VIP Fast-Track Access to Iconic Landmarks</span>
+                  </li>
+                  <li>
+                    <span class="check-icon" aria-hidden="true">✓</span>
+                    <span>Private Chauffeur &amp; Personal Travel Butler</span>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="btn btn-outline-dark btn-block btn-explore-pkg" data-pkg-id="beyond">
+                <span>Explore Package</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         BUDGET CALCULATOR SECTION
+         ===================================================================== -->
+    <section class="section calculator-section" id="calculator">
+      <div class="container">
+        <div class="calculator-wrapper reveal-up">
+
+          <!-- Left Column: Form Inputs -->
+          <div class="calc-form-panel">
+            <span class="section-eyebrow">SMART TRIP PLANNER</span>
+            <h2 class="section-title">Interactive Travel Budget Calculator</h2>
+            <p class="calc-intro">
+              Select your destination, group size, duration, and preferred travel comfort tier to get an instant, itemized trip cost estimate in Indian Rupees (₹).
+            </p>
+
+            <form id="budget-form" class="budget-form" novalidate>
+              <!-- 1. Destination Select -->
+              <div class="form-group">
+                <label for="calc-destination" class="form-label">Select Destination</label>
+                <div class="select-wrapper">
+                  <select id="calc-destination" name="destination" class="form-control" required>
+                    <option value="Goa" data-base="3200">Goa, India (Beaches &amp; Heritage)</option>
+                    <option value="Manali" data-base="3400">Manali, India (Himalayan Mountains)</option>
+                    <option value="Jaipur" data-base="2900">Jaipur, India (Royal Pink City)</option>
+                    <option value="Kerala" data-base="3900">Kerala, India (Backwaters &amp; Nature)</option>
+                    <option value="Bali" data-base="7200">Bali, Indonesia (Tropical Island Escape)</option>
+                    <option value="Dubai" data-base="8800">Dubai, UAE (Skyline &amp; Desert Luxe)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- 2 & 3. Travellers and Days Row -->
+              <div class="form-row-2">
+                <!-- Number of Travellers -->
+                <div class="form-group">
+                  <label for="calc-travellers" class="form-label">Number of Travellers</label>
+                  <div class="stepper-control">
+                    <button type="button" class="stepper-btn" data-target="calc-travellers" data-action="decrement" aria-label="Decrease travellers">−</button>
+                    <input type="number" id="calc-travellers" name="travellers" class="form-control stepper-input" value="2" min="1" max="20" required />
+                    <button type="button" class="stepper-btn" data-target="calc-travellers" data-action="increment" aria-label="Increase travellers">+</button>
+                  </div>
+                  <span class="field-hint">1 to 20 travellers (group discounts apply for 4+)</span>
+                </div>
+
+                <!-- Number of Days -->
+                <div class="form-group">
+                  <label for="calc-days" class="form-label">Number of Days</label>
+                  <div class="stepper-control">
+                    <button type="button" class="stepper-btn" data-target="calc-days" data-action="decrement" aria-label="Decrease days">−</button>
+                    <input type="number" id="calc-days" name="days" class="form-control stepper-input" value="5" min="1" max="30" required />
+                    <button type="button" class="stepper-btn" data-target="calc-days" data-action="increment" aria-label="Increase days">+</button>
+                  </div>
+                  <span class="field-hint">1 to 30 days duration</span>
+                </div>
+              </div>
+
+              <!-- 4. Travel Style Selection -->
+              <div class="form-group">
+                <span class="form-label">Travel Style</span>
+                <div class="style-selector" role="radiogroup" aria-label="Travel Style">
+                  <label class="style-option">
+                    <input type="radio" name="travelStyle" value="Budget" data-multiplier="1" />
+                    <span class="style-card">
+                      <span class="style-title">Budget</span>
+                      <span class="style-desc">Cozy guesthouses, local transit &amp; street food</span>
+                      <span class="style-tag">1.0× Base</span>
+                    </span>
+                  </label>
+
+                  <label class="style-option">
+                    <input type="radio" name="travelStyle" value="Comfort" data-multiplier="1.55" checked />
+                    <span class="style-card">
+                      <span class="style-title">Comfort</span>
+                      <span class="style-desc">4-star boutique hotels, private cab &amp; guided tours</span>
+                      <span class="style-tag">Popular</span>
+                    </span>
+                  </label>
+
+                  <label class="style-option">
+                    <input type="radio" name="travelStyle" value="Premium" data-multiplier="2.4" />
+                    <span class="style-card">
+                      <span class="style-title">Premium</span>
+                      <span class="style-desc">5-star luxury resorts, chauffeur &amp; fine dining</span>
+                      <span class="style-tag">Luxury</span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Submit / Calculate Action -->
+              <div class="calc-actions">
+                <button type="submit" class="btn btn-primary btn-lg btn-calculate" id="calculate-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    <line x1="8" y1="6" x2="16" y2="6"></line>
+                    <line x1="8" y1="10" x2="16" y2="10"></line>
+                    <line x1="8" y1="14" x2="12" y2="14"></line>
+                  </svg>
+                  <span>Calculate Budget</span>
+                </button>
+                <button type="button" class="btn btn-ghost" id="reset-calc-btn">Reset</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Right Column: Live Estimate Result Card -->
+          <div class="calc-result-panel" id="calc-result-panel" aria-live="polite">
+            <div class="result-card">
+              <div class="result-header">
+                <span class="result-badge" id="res-summary-pill">Goa • 2 Travellers • 5 Days</span>
+                <span class="result-style-tag" id="res-style-pill">Comfort Style</span>
+              </div>
+
+              <div class="result-total-box">
+                <span class="result-total-label">Estimated Total Trip Budget</span>
+                <div class="result-total-amount" id="res-total-amount">₹49,600</div>
+                <span class="result-per-person" id="res-per-person">Approx. ₹24,800 per traveller (₹4,960 / day)</span>
+              </div>
+
+              <!-- Itemized Breakdown -->
+              <div class="result-breakdown">
+                <h3 class="breakdown-title">Estimated Cost Breakdown</h3>
+
+                <div class="breakdown-row">
+                  <div class="breakdown-info">
+                    <span class="breakdown-dot dot-stay"></span>
+                    <span>Accommodation &amp; Stays (42%)</span>
+                  </div>
+                  <strong class="breakdown-val" id="res-stay-cost">₹20,832</strong>
+                </div>
+
+                <div class="breakdown-row">
+                  <div class="breakdown-info">
+                    <span class="breakdown-dot dot-transport"></span>
+                    <span>Flights / Transfers &amp; Local Travel (26%)</span>
+                  </div>
+                  <strong class="breakdown-val" id="res-transport-cost">₹12,896</strong>
+                </div>
+
+                <div class="breakdown-row">
+                  <div class="breakdown-info">
+                    <span class="breakdown-dot dot-food"></span>
+                    <span>Dining &amp; Culinary Experiences (18%)</span>
+                  </div>
+                  <strong class="breakdown-val" id="res-food-cost">₹8,928</strong>
+                </div>
+
+                <div class="breakdown-row">
+                  <div class="breakdown-info">
+                    <span class="breakdown-dot dot-activities"></span>
+                    <span>Activities, Sightseeing &amp; Guides (14%)</span>
+                  </div>
+                  <strong class="breakdown-val" id="res-activity-cost">₹6,944</strong>
+                </div>
+              </div>
+
+              <div class="result-footer">
+                <p class="result-note" id="res-note">
+                  * Includes estimated stay, local transfers, meals, and curated sightseeing in Goa.
+                </p>
+                <a href="#contact" class="btn btn-secondary btn-block" id="book-estimate-btn">
+                  Lock In This Estimate &amp; Request Custom Itinerary
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         TRAVEL GALLERY SECTION
+         ===================================================================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-eyebrow">VISUAL STORIES FROM THE ROAD</span>
+          <h2 class="section-title">Travel Moments Gallery</h2>
+          <p class="section-description">
+            Click on any photograph to enlarge and explore stories captured across our favourite coastlines, mountain passes, and royal courtyards.
+          </p>
+        </div>
+
+        <!-- 6 Photographs with Hover Animations & Click-to-Enlarge Lightbox -->
+        <div class="gallery-grid" id="gallery-grid">
+
+          <!-- Photo 1 -->
+          <figure class="gallery-item gallery-item-wide reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Sunset Palms at Palolem Beach, Goa" data-index="0" data-src="assets/images/goa.jpg" data-title="Golden Hour at Palolem Cove, Goa" data-location="Goa, India" data-caption="Warm amber waves and leaning coconut palms along South Goa's serene crescent shoreline.">
+            <img src="assets/images/goa.jpg" alt="Golden Hour at Palolem Cove, Goa" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Goa, India</span>
+                <h3 class="gallery-caption-title">Golden Hour at Palolem Cove</h3>
+                <p class="gallery-caption-text">Warm amber waves and leaning coconut palms along South Goa's serene shoreline.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 2 -->
+          <figure class="gallery-item reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Himalayan Dawn in Solang Valley, Manali" data-index="1" data-src="assets/images/manali.jpg" data-title="Himalayan Dawn Over Solang Valley" data-location="Manali, India" data-caption="First morning sunlight illuminating snow-dusted peaks and ancient deodar pine forests in Himachal.">
+            <img src="assets/images/manali.jpg" alt="Himalayan Dawn Over Solang Valley, Manali" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Manali, India</span>
+                <h3 class="gallery-caption-title">Himalayan Dawn Over Solang Valley</h3>
+                <p class="gallery-caption-text">First morning light illuminating snow-dusted peaks and pine forests.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 3 -->
+          <figure class="gallery-item reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Royal Sandstone Arches of Jaipur" data-index="2" data-src="assets/images/jaipur.jpg" data-title="Royal Sandstone Courtyards of Amber" data-location="Jaipur, India" data-caption="Intricately carved rose-pink facades glowing under the late afternoon desert sun in Rajasthan.">
+            <img src="assets/images/jaipur.jpg" alt="Royal Sandstone Courtyards of Amber, Jaipur" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Jaipur, India</span>
+                <h3 class="gallery-caption-title">Royal Sandstone Courtyards of Amber</h3>
+                <p class="gallery-caption-text">Intricately carved rose-pink facades glowing in the afternoon sun.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 4 -->
+          <figure class="gallery-item reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Tranquil Kettuvallam Cruise in Alleppey, Kerala" data-index="3" data-src="assets/images/kerala.jpg" data-title="Tranquil Backwater Waters of Alleppey" data-location="Kerala, India" data-caption="Gliding silently across emerald lagoons aboard a handcrafted wooden Kettuvallam houseboat.">
+            <img src="assets/images/kerala.jpg" alt="Tranquil Backwater Waters of Alleppey, Kerala" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Kerala, India</span>
+                <h3 class="gallery-caption-title">Tranquil Backwaters of Alleppey</h3>
+                <p class="gallery-caption-text">Gliding silently across emerald lagoons aboard a wooden houseboat.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 5 -->
+          <figure class="gallery-item reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Morning Sunbeams Over Tegalalang Rice Terraces, Bali" data-index="4" data-src="assets/images/bali.jpg" data-title="Emerald Rice Terraces of Ubud" data-location="Bali, Indonesia" data-caption="Golden morning mist drifting through sculpted emerald rice paddies and tropical palms in Ubud.">
+            <img src="assets/images/bali.jpg" alt="Emerald Rice Terraces of Ubud, Bali" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Bali, Indonesia</span>
+                <h3 class="gallery-caption-title">Emerald Rice Terraces of Ubud</h3>
+                <p class="gallery-caption-text">Golden morning mist drifting through sculpted emerald paddies.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+          <!-- Photo 6 -->
+          <figure class="gallery-item gallery-item-wide reveal-up" tabindex="0" role="button" aria-label="Enlarge photo: Twilight Skyline Reflection in Downtown Dubai" data-index="5" data-src="assets/images/dubai.jpg" data-title="Twilight Horizons Over Dubai Marina" data-location="Dubai, UAE" data-caption="Shimmering architectural icons illuminating the Arabian dusk sky above calm marina waters.">
+            <img src="assets/images/dubai.jpg" alt="Twilight Horizons Over Dubai Marina" loading="lazy" />
+            <figcaption class="gallery-overlay">
+              <div class="gallery-meta">
+                <span class="gallery-location">Dubai, UAE</span>
+                <h3 class="gallery-caption-title">Twilight Horizons Over Dubai Marina</h3>
+                <p class="gallery-caption-text">Shimmering architectural icons illuminating the Arabian dusk sky.</p>
+              </div>
+              <span class="gallery-zoom-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <polyline points="9 21 3 21 3 15"></polyline>
+                  <line x1="21" y1="3" x2="14" y2="10"></line>
+                  <line x1="3" y1="21" x2="10" y2="14"></line>
+                </svg>
+              </span>
+            </figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CONTACT / CUSTOM TRIP INQUIRY SECTION
+         ===================================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal-up">
+          <div class="contact-info">
+            <span class="section-eyebrow eyebrow-light">START YOUR JOURNEY</span>
+            <h2 class="contact-title">Ready to Turn Your Dream Itinerary Into Reality?</h2>
+            <p class="contact-text">
+              Speak with our senior travel curators for personalized route planning, honeymoon upgrades, or private group expeditions.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Studio Flagship</strong>
+                  <span>42 Heritage Esplanade, MG Road, Bengaluru 560001, India</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📞</span>
+                <div>
+                  <strong>Direct Travel Desk</strong>
+                  <span>+91 (80) 4567 8910 • Mon–Sat, 9:00 AM – 8:00 PM IST</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">✉️</span>
+                <div>
+                  <strong>Concierge Email</strong>
+                  <span>concierge@travelexplorer.in</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="inquiry-form" id="inquiry-form">
+            <h3 class="inquiry-heading">Request a Free Custom Callback</h3>
+            <div class="form-group">
+              <label for="inq-name" class="form-label">Full Name</label>
+              <input type="text" id="inq-name" class="form-control" placeholder="e.g. Aarav Sharma" required />
+            </div>
+            <div class="form-row-2">
+              <div class="form-group">
+                <label for="inq-email" class="form-label">Email Address</label>
+                <input type="email" id="inq-email" class="form-control" placeholder="aarav@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="inq-phone" class="form-label">Phone Number</label>
+                <input type="tel" id="inq-phone" class="form-control" placeholder="+91 98765 43210" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inq-notes" class="form-label">Your Travel Plans</label>
+              <textarea id="inq-notes" rows="3" class="form-control" placeholder="Tell us where you'd love to go, preferred dates, or special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">
+              Send Trip Inquiry
+            </button>
+            <p class="form-feedback" id="inquiry-feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       FOOTER
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo footer-logo">
+            <span class="logo-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+              </svg>
+            </span>
+            <span class="logo-text">Travel <span>Explorer</span></span>
+          </a>
+          <p class="footer-tagline">Collect Moments. Explore the World.</p>
+          <p class="footer-bio">
+            Crafting mindful, authentic, and unforgettable travel experiences across India and the world's most extraordinary landscapes.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Travel Packages</a></li>
+            <li><a href="#calculator">Budget Calculator</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Top Destinations -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Top Destinations</h4>
+          <ul class="footer-links">
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="beaches">Goa Beaches</a></li>
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="mountains">Manali Himalayas</a></li>
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="cities">Jaipur Heritage</a></li>
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="nature">Kerala Backwaters</a></li>
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="beaches">Bali Island</a></li>
+            <li><a href="#destinations" class="footer-dest-link" data-filter-trigger="cities">Dubai Skyline</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Newsletter -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact &amp; Updates</h4>
+          <p class="footer-contact-line">📍 MG Road, Bengaluru, KA 560001</p>
+          <p class="footer-contact-line">📞 +91 (80) 4567 8910</p>
+          <p class="footer-contact-line">✉️ concierge@travelexplorer.in</p>
+
+          <form class="newsletter-form" id="newsletter-form">
+            <label for="newsletter-email" class="sr-only">Email for travel stories</label>
+            <input type="email" id="newsletter-email" placeholder="Your email for travel guides" required />
+            <button type="submit" aria-label="Subscribe">Join</button>
+          </form>
+          <span class="newsletter-msg" id="newsletter-msg" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Travel Explorer. All rights reserved. Designed with care for passionate travellers.</p>
+        <div class="footer-legal">
+          <a href="#contact">Privacy Policy</a>
+          <span>•</span>
+          <a href="#contact">Terms of Service</a>
+          <span>•</span>
+          <a href="#contact">Sustainable Travel Pledge</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       BACK TO TOP BUTTON
+       ===================================================================== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- =====================================================================
+       LIGHTBOX MODAL (GALLERY CLICK-TO-ENLARGE)
+       ===================================================================== -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Enlarged travel photograph">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close enlarged photo">&times;</button>
+
+      <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous photo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <figure class="lightbox-figure">
+        <img src="" alt="" id="lightbox-img" class="lightbox-img" />
+        <figcaption class="lightbox-caption">
+          <div class="lightbox-caption-header">
+            <span class="lightbox-location" id="lightbox-location"></span>
+            <span class="lightbox-counter" id="lightbox-counter">1 / 6</span>
+          </div>
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-desc"></p>
+        </figcaption>
+      </figure>
+
+      <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next photo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       DESTINATION / PACKAGE DETAIL MODAL
+       ===================================================================== -->
+  <div class="detail-modal" id="detail-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="detail-modal-backdrop" id="detail-modal-backdrop"></div>
+    <div class="detail-modal-card">
+      <button class="detail-modal-close" id="detail-modal-close" aria-label="Close modal">&times;</button>
+      <div class="detail-modal-media">
+        <img src="" alt="" id="modal-img" />
+        <span class="detail-modal-badge" id="modal-badge"></span>
+      </div>
+      <div class="detail-modal-body">
+        <div class="detail-modal-meta" id="modal-meta"></div>
+        <h3 class="detail-modal-title" id="modal-title"></h3>
+        <p class="detail-modal-desc" id="modal-desc"></p>
+
+        <div class="detail-modal-highlights">
+          <h4 id="modal-list-heading">Signature Highlights</h4>
+          <ul id="modal-highlights-list" class="modal-highlights-list"></ul>
+        </div>
+
+        <div class="detail-modal-footer">
+          <div class="detail-modal-price">
+            <span class="price-label">Estimated Starting Price</span>
+            <strong id="modal-price" class="price-amount"></strong>
+          </div>
+          <div class="detail-modal-actions">
+            <button type="button" class="btn btn-primary" id="modal-calc-btn">
+              Calculate Budget for This Trip
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
